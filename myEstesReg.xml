@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyEstesRegressionTests" parallel="classes">
+<parameter name= "isSmoke" value="false" />
+
+		<listeners>
+	<listener class-name= "util.TestListener"/>
+	</listeners>
+	
+<test name="Test">
+
+	</test> <!-- Test -->
+	<test name="Test2">
+		<classes>
+			<class name="estesFinalMileTests.EstesFinalMileRegressionTest" />
+
+		</classes>
+
+	</test> <!-- Test -->
+	<test name="Test3">
+		<classes>
+			<class name="ediTests.MyEstesEDIRegressionTest" />
+
+		</classes>
+
+
+	</test> <!-- Test -->
+	<test name="Test4">
+		<classes>
+			<class name="pointsDownloadTests.PointsDownloadRegressionTest" />
+
+		</classes>
+
+	</test> <!-- Test -->
+	<test name="Test5">
+		<classes>
+			<class name="myEstesTests.MyEstesRegressionTest" />
+
+		</classes>
+
+</test> <!-- Test -->
+	<test name="Test6">
+		<classes>
+			<class
+				name="timeCriticalRateQuoteTests.TimeCriticalRateQuoteRegressionTest" />
+
+		</classes>
+		
+		
+		</test> <!-- Test -->
+	<test name="Test7">
+		<classes>
+			<class
+				name="fuelSurchargeTests.FuelSurchargeRegressionTest" />
+
+		</classes>
+
+	</test>
+</suite> <!-- Suite -->

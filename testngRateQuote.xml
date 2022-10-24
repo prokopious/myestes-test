@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="shipmentLifecycleTests.ShipmentLifeCycleSmokeTest"/>
+      <class name="rateRetrieverTests.RateRetrieverRegressionTest"/>
+      <class name="signupTests.SignupSmokeTest"/>
+      <class name="rateQuoteHistoryTests.RateQuoteHistoryRegressionTest"/>
+      <class name="rateQuoteHistoryTests.RateQuoteHistorySmokeTest"/>
+      <class name="shipmentTrackingTests.ShipmentTrackingRegressionTest"/>
+      <class name="recentShipmentsTests.RecentShipmentsRegressionTest"/>
+      <class name="estesFinalMileTests.EstesFinalMileTemplateTest"/>
+      <class name="fuelSurchargeTests.FuelSurchargeSmokeTest"/>
+      <class name="rateQuoteTests.RateQuoteSmokeTest"/>
+      <class name="invoiceInquiryTests.InvoiceInquiryRegressionTest"/>
+      <class name="ltlRateEstimateTests.LtLRateEstimateRegressionTest"/>
+      <class name="estesFinalMileTests.EstesFinalMileSmokeTest"/>
+      <class name="pickupRequestTests.PickupRequestRegressionTest"/>
+      <class name="rateQuoteTests.RateQuoteRegressionTest"/>
+      <class name="quickLinksTests.QuickLinksSmokeTest"/>
+      <class name="pickupHistoryTests.PickupHistorySmokeTest"/>
+      <class name="recoverUsernameAndPasswordTests.RecoverUsernameAndPasswordRegressionTest"/>
+      <class name="rateRetrieverTests.RateRetrieverSmokeTest"/>
+      <class name="transitTimeCalculatorTests.TransitTimeCalculatorSmokeTest"/>
+      <class name="shipmentManifestTests.ShipmentManifestRegressionTest"/>
+      <class name="customerReportsTests.CustomerReportsSmokeTest"/>
+      <class name="signupTests.SignupRegressionTest"/>
+      <class name="densityCalculatorTests.DensityCalculatorRegressionTest"/>
+      <class name="addressBookTests.AddressBookSmokeTest"/>
+      <class name="accountReceivablesTests.AccountReceivablesRegressionTest"/>
+      <class name="weightAndResearchInquiryTests.WeightAndResearchInquiryRegressionTest"/>
+      <class name="estesTruckloadTests.EstesTruckloadRegressionAPITest"/>
+      <class name="shipmentTrackingTests.ShipmentTrackingSmokeTest"/>
+      <class name="ltlRateEstimateTests.LTLRateEstimateSmokeTest"/>
+      <class name="myEstesTests.MyEstesSmokeTest"/>
+      <class name="estesTruckloadTests.EstesTruckloadSmokeTest"/>
+      <class name="pointsDownloadTests.PointsDownloadRegressionTest"/>
+      <class name="densityCalculatorTests.DensityCalculatorSmokeTest"/>
+      <class name="claimsTests.ClaimsRegressionTest"/>
+      <class name="quickLinksTests.QuickLinksRegressionTest"/>
+      <class name="estesTruckloadTests.EstesTruckloadRegressionTest"/>
+      <class name="util.TestListener"/>
+      <class name="terminalLookupTests.TerminalLookupRegressionTest"/>
+      <class name="shipmentManifestTests.ShipmentManifestSmokeTest"/>
+      <class name="ssdrTests.SSDRRegressionTest"/>
+      <class name="myEstesTests.MyEstesRegressionTest"/>
+      <class name="fuelSurchargeTests.FuelSurchargeRegressionTest"/>
+      <class name="quoteHistoryLookupTests.QuoteHistoryLookupSmokeTest"/>
+      <class name="ltlRateRequestTests.LtlRateRequestSmokeTest"/>
+      <class name="customerReportsTests.CustomerReportsRegressionTest"/>
+      <class name="addressBookTests.AddressBookRegressionTest"/>
+      <class name="estesTruckloadTests.EstesTruckloadSmokeAPITest"/>
+      <class name="quoteHistoryLookupTests.QuoteHistoryLookupRegressionTest"/>
+      <class name="loginTest.LoginRegressionTests"/>
+      <class name="accountNumberRequestTests.AccountNumberRequestRegressionTest"/>
+      <class name="commodityLibraryTests.CommodityLibraryRegressionTest"/>
+      <class name="commodityLibraryTests.CommodityLibrarySmokeTest"/>
+      <class name="terminalLookupTests.TerminalLookupSmokeTest"/>
+      <class name="estesFinalMileTests.EstesFinalMileRegressionTest"/>
+      <class name="timeCriticalRateQuoteTests.TimeCriticalRateQuoteRegressionTest"/>
+      <class name="as400TempletTests.TempletTests"/>
+      <class name="transitTimeCalculatorTests.TransitTimeCalculatorRegressionTest"/>
+      <class name="shipmentLifecycleTests.ShipmentLifeCycleRegressionTest"/>
+      <class name="eNetPages.ENetQuoteAuditTrailPage"/>
+      <class name="claimsTests.ClaimsSmokeTest"/>
+      <class name="accountNumberRequestTests.AccountNumberRequestSmokeTest"/>
+      <class name="billOfLadingTests.BillOfLadingRegrssionTest"/>
+      <class name="accountReceivablesTests.AccountReceivablesSmokeTest"/>
+      <class name="ltlRateRequestTests.LtlRateRequestRegressionTest"/>
+      <class name="eNetTests.ENetSmokeTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RateQuoteRegressionTest">
+<parameter name= "isSmoke" value="false" />
+  
+  	<listeners>
+	<listener class-name= "util.TestListener"/>
+	</listeners>
+
+		<listeners>
+	<listener class-name= "util.TestListener"/>
+	</listeners>
+	<test name="Test">
+    <classes>
+      <class name="rateQuoteTests.RateQuoteRegressionTest">
+      
+   <methods>
+      
+      		<include name="qz10128_verifyThatWhenTheRateQuoteIsCAPRatedThenTheLTLChargesAreNotDisplayedIfTotalLinearFeetIsGreaterThan20"></include>
+      		<include name="qz10413_verifyThatWhenARateQuoteTotalVolumeLinearFeetIsGreateThan27WhenContactMeIsDisplayed"></include>
+      		<include name="qz10794_eNetVerifyWhenTimeCriticalRateQuoteAndOneCommodityAndLength96InchesThenOverlengthCharge"></include>
+      		<include name="qz3095_verifyNationalAccountCanNotEnterAccountsNotTiedToThem"></include>
+      		<include name="qz5092_verifyGuaranteedLTL10AM12PM5PMDisplayAsContactMeLinkForInvalidServiceInPointsFile"></include>
+      		<include name="qz7046_verifyAnErrorMessageDisplaysIfotalWeightIsGreaterThan42500Pouunds"></include> 
+      		<include name="qz820_verifyContactUsIsDisplayedForGuaranteedServiceLevelsWhenLimitedAccessAccessorialIsSelected"></include> 
+      		<include name="qz829_verifyManhattanAndAlaskaFreightAndFuelLineItemsAndChargesDisplayUnderChargeItemsWhenTheyAreSelectedAsOriginAndDestination"></include> 
+      		<include name="qz835_verifyErrorMessageIsReceivedIfAccountNumberEnteredIsNotPartyToTheAccount_NationalAccount"></include> 
+      		<include name="qz836_verifyButtonsAndMessagesAreDisplayedWhenGuaranteedOptionsSelected"></include>
+      		<include name="qz843_verifyWhenTotalWeightIsOverTheLTLWeightLimitAMessageAdvisingTheUserToSelectTheVolumeandTruckloadQuoteTtypeIsdisplayed"></include>
+      		<include name="qz850_verifyAccessorialChargesAreDisplayedUnderChargeItemsWithAssociatedCostsInTheRateQuoteDetails"></include> 
+	 
+	 
+	 <include name="qz9349_verifyADisclaimerIsDisplayedOverlengthCharge28To39AccessorialIsAutomaticallyAdded"></include> 
+      		<include name="qz9351_verifyMyEstesLTLRateQuoteDisplaysTotalEstimatedFreightChargesAndAlaskaAccessorialsWhenShipmentIsToOrFromAlaska"></include>
+      		<include name="qz9352_myEstesLTLRateQuoteDisplaysEstimatedFreightChargesAndMexicoAccessorialsWhenTheShipmentIsToOrFromMexico"></include>
+      		<include name="qz9443_verifyAMessageIsDisplayedAndLTLRatesAreNotDisplayedWhenTheCalculatedLengthIsGreaterThen20Feet"></include> 
+	 <include name="qz9844_verifyWhenVolumeShipmentGoThroughASeriesOfBreaksAndRelaysThenAllApplicableTerminalsPremiumsAreSeparatelyAddedToTheAdditionalChargesSectionAndTheTotalIsDisplayedInTheTotalCalculationChargesSectionAndAddedToFinalRate"></include> 
+	 
+	  </methods>
+	  </class>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->

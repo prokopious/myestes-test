@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RateQuoteSmokeTest" parallel="methods" thread-count="3">
+  <listeners>
+	<listener class-name="util.TestListener" />
+</listeners>
+  
+  
+  <test name="smoke">
+    <classes>
+      <class name="rateQuoteTests.RateQuoteSmokeTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

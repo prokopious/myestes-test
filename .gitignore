@@ -1,0 +1,16 @@
+target/
+.project
+.classpath
+test-output/
+.settings/
+bin/
+screenshots/
+TestReport
+debug.log
+as400_Automation.properties
+Automation.Out
+regfailures.xml
+localExecutionTests
+
+/.apt_generated/
+/.apt_generated_tests/

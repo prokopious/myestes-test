@@ -1,0 +1,5 @@
+﻿Account #,Claimant,Remit,Claim Type,Total Count,Total Requested Amount,Paid Count,Paid Amount,Declined Count,Declined Amount,Open Count,Open Amount
+5068692,PREMIER MANUFACTURING,PREMIER MANUFACTURING,1 - Shortage,1,$234.56,0,$0.00,1,$234.56,0,$0.00
+5068692,PREMIER MANUFACTURING,PREMIER MANUFACTURING,4 - Concealed Damage,1,$1.00,0,$0.00,1,$1.00,0,$0.00
+5068692,PREMIER MANUFACTURING,PREMIER MANUFACTURING,5 - Visible Damage,9,"$2,111.04",5,"$1,715.70",3,$68.54,1,$326.80
+,,,Totals:,11,"$2,346.60",5,"$1,715.70",5,$304.10,1,$326.80

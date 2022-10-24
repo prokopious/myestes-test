@@ -1,0 +1,2 @@
+@Library('qa-pipeline') _
+QAAutomationPipeline('RateQuoteHistoryRegressionTest',null)

@@ -1,0 +1,11 @@
+@Library("global-pipeline@v18") _
+def appName=null
+def projectName=null
+def jobParameters = [
+    "projectType": "maven",
+    "excludeStages": ['Unit Test']
+]
+MergeRequestPipeline(appName, projectName, jobParameters)
+
+
+         
