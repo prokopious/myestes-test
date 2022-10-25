@@ -1049,19 +1049,19 @@ public class RateRetrieverSmokeTest extends TestBase {
         testUtil.init(this);
         
         
-//        testUtil.runScript("QZ_11439.py");
+        testUtil.runScript("QZ_11439.py");
         
 //        testUtil.writeString("Hello World");
         
         
 
 //        testUtil.printIdentifiers("frmLogin");
-        
+//        
 //        testUtil.pySendKeys("frmLogin", "Edit2", "891984");
 //        testUtil.pySendKeys("frmLogin", "Edit", "01008");
 //
-        String text = testUtil.pyGetText("frmLogin", "Login");
-        System.out.println(text);
+//        String text = testUtil.pyGetText("frmLogin", "Login");
+//        System.out.println(text);
 //
 //        testUtil.clickElementPython("frmLogin", "Reset");
 
